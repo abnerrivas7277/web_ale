@@ -1,0 +1,99 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif; /* Fuente principal */
+    background-color: #f0f4f8; /* Color de fondo claro */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Para centrar el contenido */
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Altura total de la ventana */
+}
+
+main {
+    max-width: 800px; /* Ancho máximo del contenido principal */
+    padding: 20px;
+    background-color: white; /* Fondo blanco para el contenido */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+/* Estilo para la sección de bienvenida */
+.welcome {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.welcome h2 {
+    font-size: 24px; /* Tamaño de la fuente para el título */
+    color: #333; /* Color del texto */
+    margin: 10px 0;
+}
+
+.welcome p {
+    font-size: 16px; /* Tamaño de la fuente para el párrafo */
+    color: #555; /* Color del texto */
+}
+
+/* Estilos para centrar el inicio de sesión */
+.login {
+    max-width: 400px; /* Ancho máximo */
+    margin: 0 auto; /* Centra el formulario de inicio de sesión */
+    padding: 20px;
+    background-color: #f9f9f9; /* Color de fondo suave */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.login__title {
+    text-align: center; /* Centra el título */
+    margin-bottom: 20px;
+    color: #333; /* Color del texto */
+}
+
+.login__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login__input-group {
+    margin-bottom: 10px;
+}
+
+.login__input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc; /* Bordes de los campos de entrada */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.login__button {
+    background-color: #0073e6; /* Color de fondo del botón */
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    width: 100%; /* El botón ocupa el ancho total */
+}
+
+.login__button:hover {
+    background-color: #005bb5; /* Cambia el color de fondo del botón al pasar el cursor */
+}
+
+.login__message {
+    text-align: center; /* Centra el mensaje */
+    margin-top: 10px;
+    color: red; /* Color del texto del mensaje (puedes cambiarlo según el contexto) */
+}
+
+/* Estilos del pie de página */
+footer {
+    text-align: center; /* Centra el texto */
+    color: #777; /* Color del texto */
+    font-size: 14px; /* Tamaño de la fuente */
+    padding-top: 20px; /* Espacio superior */
+}

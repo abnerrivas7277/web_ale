@@ -1,0 +1,112 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    background-color: #f9f9f9; /* Color de fondo suave */
+}
+
+/* Estilos del encabezado */
+.header {
+    background-color: #0073e6; /* Color azul claro */
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.header__title {
+    margin: 0;
+}
+
+.header__nav {
+    margin-top: 10px;
+}
+
+.nav__list {
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+}
+
+.nav__item {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nav__link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Estilos del área principal */
+.main {
+    padding: 20px;
+}
+
+.product-details {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.product-details__title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Ajuste del tamaño de la imagen */
+.product-details__image {
+    width: 300px; /* Establece el ancho de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.product-details__description {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.product-details__price {
+    font-size: 20px;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.product-details__button {
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    background-color: #28a745; /* Color verde */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.product-details__button:hover {
+    background-color: #218838; /* Color verde más oscuro al pasar el cursor */
+}
+
+/* Estilos del pie de página */
+.footer {
+    background-color: #0073e6;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer__text {
+    margin: 0;
+}
